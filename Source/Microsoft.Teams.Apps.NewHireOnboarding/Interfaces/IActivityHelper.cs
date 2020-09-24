@@ -11,7 +11,6 @@ namespace Microsoft.Teams.Apps.NewHireOnboarding.Interfaces
     using Microsoft.Bot.Schema;
     using Microsoft.Bot.Schema.Teams;
     using Microsoft.Teams.Apps.NewHireOnboarding.Models;
-    using Microsoft.Teams.Apps.NewHireOnboarding.Models.EntityModels;
 
     /// <summary>
     /// This interface will contain the activity handler helper methods for bot activity.

@@ -5,11 +5,8 @@
 namespace Microsoft.Teams.Apps.NewHireOnboarding.Interfaces
 {
     using System.Collections.Generic;
-    using System.IO;
     using System.Threading.Tasks;
     using Microsoft.Graph;
-    using Microsoft.Teams.Apps.NewHireOnboarding.Models.Graph;
-    using Microsoft.Teams.Apps.NewHireOnboarding.Models.SharePoint;
 
     /// <summary>
     /// Interface to provide the helper methods to access team operations from Microsoft Graph API.

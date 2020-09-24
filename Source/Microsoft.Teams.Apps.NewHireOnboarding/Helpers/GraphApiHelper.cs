@@ -10,18 +10,13 @@ namespace Microsoft.Teams.Apps.NewHireOnboarding.Helpers
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using System.Net.Http;
     using System.Net.Http.Headers;
     using System.Threading.Tasks;
     using Microsoft.Extensions.Caching.Memory;
     using Microsoft.Extensions.Logging;
-    using Microsoft.Extensions.Options;
     using Microsoft.Graph;
     using Microsoft.Teams.Apps.NewHireOnboarding.Interfaces;
-    using Microsoft.Teams.Apps.NewHireOnboarding.Models.Configuration;
-    using Microsoft.Teams.Apps.NewHireOnboarding.Models.Graph;
     using Microsoft.Teams.Apps.NewHireOnboarding.Models.SharePoint;
-    using Newtonsoft.Json;
 #pragma warning disable SA1135 // Application requires both Graph v1.0 and beta SDKs which needs to add extern reference. More details can be found here : https://github.com/microsoftgraph/msgraph-beta-sdk-dotnet
     using Beta = BetaLib.Microsoft.Graph;
 #pragma warning restore SA1135 // Application requires both Graph v1.0 and beta SDKs which needs to add extern reference. More details can be found here : https://github.com/microsoftgraph/msgraph-beta-sdk-dotnet

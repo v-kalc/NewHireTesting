@@ -21,7 +21,6 @@ namespace Microsoft.Teams.Apps.NewHireOnboarding.Helpers
     using Microsoft.Teams.Apps.NewHireOnboarding.Cards;
     using Microsoft.Teams.Apps.NewHireOnboarding.Interfaces;
     using Microsoft.Teams.Apps.NewHireOnboarding.Models;
-    using Microsoft.Teams.Apps.NewHireOnboarding.Models.Card;
     using Microsoft.Teams.Apps.NewHireOnboarding.Models.Configuration;
     using Microsoft.Teams.Apps.NewHireOnboarding.Models.EntityModels;
     using Newtonsoft.Json;
