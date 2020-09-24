@@ -1,0 +1,75 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "c27f8d09-392f-40b2-aedc-a9569e830251",
+  "packageName": "com.microsoft.teams.newhireonboarding",
+  "developer": {
+    "name": "<company name>",
+    "websiteUrl": "<website Url>",
+    "privacyUrl": "<company privacy Url>",
+    "termsOfUseUrl": "<company terms of use Url>"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "New Hire",
+    "full": "New Hire Onboarding"
+  },
+  "description": {
+    "short": "New hire on boarding app will simplify the new employee on boarding using MS Teams and SharePoint Online",
+    "full": "New hire on boarding app will simplify the new employee on boarding using MS Teams and SharePoint Online. NEO bot will be created to cater to below requirements."
+  },
+  "accentColor": "#7BFFFE",
+  "bots": [
+    {
+      "botId": "<<botId>>",
+      "scopes": [
+        "personal",
+        "team"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "Onboarding plan",
+              "description": "View your learning path"
+            },
+            {
+              "title": "Share feedback",
+              "description": "Submit an idea or feedback"
+            },
+            {
+              "title": "Review introductions",
+              "description": "Review introductions"
+            }
+          ]
+        }
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "staticTabs": [
+    {
+      "entityId": "Journey",
+      "name": "Onboarding Journey",
+      "contentUrl": "<<appbaseUrl>>/journey",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "validDomains": [
+    "<<appDomain>>"
+  ],
+  "webApplicationInfo": {
+    "id": "<<botId>>",
+    "resource": "<ApplicationIdURI>"
+  }
+}
