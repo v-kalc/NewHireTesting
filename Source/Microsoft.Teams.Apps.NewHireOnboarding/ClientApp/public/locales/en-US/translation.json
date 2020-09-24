@@ -1,0 +1,14 @@
+{
+  "signInText": "Sign in",
+  "loginErrorMessage": "Please sign in to continue.",
+  "generalErrorMessage": "Something went wrong. Try again in a few minutes. If the problem persists, contact your IT admin for help.",
+  "unauthorizedErrorMessage": "You are not authorized to view this page.",
+
+  "excelViewHeaderText": "Feedback Data",
+  "columnHeaderMonthText": "Feedback submitted on",
+  "columnHeaderNewHireNameText": "New hire name",
+  "columnHeaderFeedbackText": "Feedback",
+
+  "feedbackExcelFileName": "Feedback",
+  "feedbackExcelSheetName": "Feedbacks"
+}
